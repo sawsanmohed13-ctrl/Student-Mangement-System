@@ -9,13 +9,13 @@ public class Student {
     private static int studentCount = 0;
 
     static {
-        universityName = "Global Tech University";
+        universityName = "Menofia University";
         System.out.println("University data has been loaded");
     }
 
     public Student() {
         this.id = 0;
-        this.name = "Default";
+        this.name = "not finded";
         this.grade = 0;
         studentCount++;
     }
